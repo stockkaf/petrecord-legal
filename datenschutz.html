@@ -1,27 +1,108 @@
-Datenschutzerklärung für PetRecord
-Stand: Juli 2026
-PetRecord („die App") ist ein digitaler Haustierpass. Der Schutz deiner Daten ist uns wichtig. Diese Erklärung informiert dich darüber, welche Daten die App verarbeitet.
-1. Verantwortlicher
-Felix Stockkamp E-Mail: felix.stockkamp@gmail.com
-2. Grundprinzip: Deine Daten gehören dir – gespeichert in deinem eigenen iCloud-Account
-PetRecord speichert alle von dir eingegebenen Informationen (Tierprofile, Impfungen, Medikamente, Tierarztbesuche, Gewicht, Dokumente, Fotos, Notfallkontakte) auf deinem iPhone und synchronisiert sie über Apples iCloud (CloudKit) mit deinen weiteren Geräten, die mit derselben Apple-ID angemeldet sind. Die Daten liegen dabei in deinem eigenen, privaten iCloud-Bereich – wir betreiben keinen eigenen Server und haben zu keinem Zeitpunkt Zugriff auf deine Daten. Verantwortlich für die Cloud-Infrastruktur ist Apple; es gilt zusätzlich die Datenschutzerklärung von Apple.
-Teilen mit einer Betreuungsperson (Premium-Funktion): Wenn du die Premium-Sitter-Funktion nutzt, kannst du ein Tier gezielt mit einer weiteren Person (z. B. einer Tiersitterin) teilen. Diese Person sieht dann dieselben Daten zu diesem Tier (Pflegeplan, Impfungen, Medikamente, Notfallkontakte usw.) und kann sie bearbeiten. Das Teilen erfolgt technisch über eine von Apple bereitgestellte CloudKit-Freigabe; du entscheidest jederzeit selbst, wem du Zugriff gibst, und kannst diesen jederzeit in der App wieder entziehen. Bitte teile Kontaktdaten Dritter (z. B. Notfallkontakte) nur, wenn die betroffene Person damit einverstanden ist.
-3. Berechtigungen und deren Zweck
-Die App bittet nur dann um Zugriff, wenn du eine Funktion aktiv nutzt:
-	•	Kamera – um Fotos deines Tieres oder von Dokumenten aufzunehmen.
-	•	Fotos (nur Hinzufügen) – um aufgenommene Fotos zusätzlich in deiner Mediathek zu sichern.
-	•	Kontakte – um einen ausgewählten Kontakt als Notfallkontakt zu übernehmen. Es wird nur der von dir gewählte Kontakt gelesen.
-	•	Kalender – um von dir geplante Impf-/Tierarzttermine in deinen Kalender einzutragen.
-	•	Erinnerungen – um Medikamenten-Gaben als Erinnerungen anzulegen.
-	•	Mitteilungen – um dich an anstehende Termine und Medikamentengaben zu erinnern.
-Diese Zugriffe dienen ausschließlich der jeweiligen Funktion auf deinem Gerät. Es werden keine dieser Daten an uns übertragen. Du kannst jede Berechtigung jederzeit in den iOS-Einstellungen widerrufen.
-4. Kein Tracking, keine Analyse, keine Werbung
-PetRecord enthält keine Analyse-Tools, keine Werbe-SDKs und kein Tracking. Es werden keine Nutzungsdaten erhoben.
-5. In-App-Käufe
-Die Premium-Sitter-Funktion ist ein einmaliger In-App-Kauf. Die Zahlungsabwicklung erfolgt vollständig über Apples App Store; wir erhalten dabei keine Zahlungs- oder Kreditkartendaten, lediglich die Information, dass ein Kauf erfolgreich war (Kaufhistorie über dein Apple-Konto).
-6. Speicherung und Löschung
-Deine Daten verbleiben in deinem privaten iCloud-Bereich und auf deinen Geräten, bis du sie in der App löschst oder die App deinstallierst und zusätzlich aus deinem iCloud-Speicher entfernst. Beim Deinstallieren werden die lokal auf dem Gerät gespeicherten Daten entfernt; in iCloud gesicherte Daten bleiben bestehen, bis du sie über die App oder deine iCloud-Einstellungen löschst. Termine oder Erinnerungen, die du in die Kalender- bzw. Erinnerungen-App exportiert hast, bleiben dort bestehen und müssen ggf. dort separat gelöscht werden. Entziehst du einer Betreuungsperson den Zugriff auf ein geteiltes Tier, verliert diese unmittelbar den Zugriff auf die zugehörigen Daten.
-7. Deine Rechte (DSGVO)
-Wir selbst erheben oder speichern keine personenbezogenen Daten auf eigenen Servern – deine Daten liegen in deinem eigenen iCloud-Account, verarbeitet von Apple als Auftragsverarbeiter. Auskunft, Berichtigung und Löschung nimmst du direkt in der App vor; für Fragen zu Apples Verarbeitung deiner iCloud-Daten gilt zusätzlich Apples eigene Datenschutzerklärung. Die volle Kontrolle über deine Dateninhalte hast du jederzeit direkt in der App.
-8. Kontakt
-Bei Fragen zum Datenschutz erreichst du uns unter: felix.stockkamp@gmail.com
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Datenschutzerklärung – PetRecord</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+         max-width: 720px; margin: 0 auto; padding: 24px; line-height: 1.6; color: #1c1c1e; }
+  h1 { font-size: 1.8rem; } h2 { font-size: 1.2rem; margin-top: 2rem; }
+  a { color: #FA8057; }
+  code { background: #f2f2f7; padding: 1px 5px; border-radius: 4px; }
+  .muted { color: #6c6c70; font-size: .9rem; }
+  @media (prefers-color-scheme: dark) {
+    body { background: #000; color: #f2f2f7; } code { background: #1c1c1e; }
+    .muted { color: #98989d; }
+  }
+</style>
+</head>
+<body>
+
+<h1>Datenschutzerklärung für PetRecord</h1>
+<p class="muted">Stand: Juli 2026</p>
+
+<p>
+PetRecord („die App") ist ein digitaler Haustierpass. Der Schutz deiner Daten ist uns wichtig.
+Diese Erklärung informiert dich darüber, welche Daten die App verarbeitet.
+</p>
+
+<h2>1. Verantwortlicher</h2>
+<p>
+Felix Stockkamp<br>
+E-Mail: felix.stockkamp@gmail.com
+</p>
+
+<h2>2. Grundprinzip: Deine Daten gehören dir – gespeichert in deinem eigenen iCloud-Account</h2>
+<p>
+PetRecord speichert alle von dir eingegebenen Informationen (Tierprofile, Impfungen, Medikamente,
+Tierarztbesuche, Gewicht, Dokumente, Fotos, Notfallkontakte) auf deinem iPhone und synchronisiert
+sie über <strong>Apples iCloud (CloudKit)</strong> mit deinen weiteren Geräten, die mit derselben
+Apple-ID angemeldet sind. Die Daten liegen dabei in deinem eigenen, privaten iCloud-Bereich – wir
+betreiben keinen eigenen Server und haben zu keinem Zeitpunkt Zugriff auf deine Daten. Verantwortlich
+für die Cloud-Infrastruktur ist Apple; es gilt zusätzlich die
+<a href="https://www.apple.com/legal/privacy/de-ww/">Datenschutzerklärung von Apple</a>.
+</p>
+<p>
+<strong>Teilen mit einer Betreuungsperson (Premium-Funktion):</strong> Wenn du die Premium-Sitter-Funktion
+nutzt, kannst du ein Tier gezielt mit einer weiteren Person (z. B. einer Tiersitterin) teilen. Diese
+Person sieht dann dieselben Daten zu diesem Tier (Pflegeplan, Impfungen, Medikamente, Notfallkontakte
+usw.) und kann sie bearbeiten. Das Teilen erfolgt technisch über eine von Apple bereitgestellte
+CloudKit-Freigabe; du entscheidest jederzeit selbst, wem du Zugriff gibst, und kannst diesen jederzeit
+in der App wieder entziehen. Bitte teile Kontaktdaten Dritter (z. B. Notfallkontakte) nur, wenn die
+betroffene Person damit einverstanden ist.
+</p>
+
+<h2>3. Berechtigungen und deren Zweck</h2>
+<p>Die App bittet nur dann um Zugriff, wenn du eine Funktion aktiv nutzt:</p>
+<ul>
+  <li><strong>Kamera</strong> – um Fotos deines Tieres oder von Dokumenten aufzunehmen.</li>
+  <li><strong>Fotos (nur Hinzufügen)</strong> – um aufgenommene Fotos zusätzlich in deiner Mediathek zu sichern.</li>
+  <li><strong>Kontakte</strong> – um einen ausgewählten Kontakt als Notfallkontakt zu übernehmen. Es wird nur der von dir gewählte Kontakt gelesen.</li>
+  <li><strong>Kalender</strong> – um von dir geplante Impf-/Tierarzttermine in deinen Kalender einzutragen.</li>
+  <li><strong>Erinnerungen</strong> – um Medikamenten-Gaben als Erinnerungen anzulegen.</li>
+  <li><strong>Mitteilungen</strong> – um dich an anstehende Termine und Medikamentengaben zu erinnern.</li>
+</ul>
+<p>
+Diese Zugriffe dienen ausschließlich der jeweiligen Funktion auf deinem Gerät. Es werden keine dieser
+Daten an uns übertragen. Du kannst jede Berechtigung jederzeit in den iOS-Einstellungen widerrufen.
+</p>
+
+<h2>4. Kein Tracking, keine Analyse, keine Werbung</h2>
+<p>
+PetRecord enthält keine Analyse-Tools, keine Werbe-SDKs und kein Tracking. Es werden keine
+Nutzungsdaten erhoben.
+</p>
+
+<h2>5. In-App-Käufe</h2>
+<p>
+Die Premium-Sitter-Funktion ist ein einmaliger In-App-Kauf. Die Zahlungsabwicklung erfolgt
+vollständig über Apples App Store; wir erhalten dabei keine Zahlungs- oder Kreditkartendaten,
+lediglich die Information, dass ein Kauf erfolgreich war (Kaufhistorie über dein Apple-Konto).
+</p>
+
+<h2>6. Speicherung und Löschung</h2>
+<p>
+Deine Daten verbleiben in deinem privaten iCloud-Bereich und auf deinen Geräten, bis du sie in der
+App löschst oder die App deinstallierst und zusätzlich aus deinem iCloud-Speicher entfernst. Beim
+Deinstallieren werden die lokal auf dem Gerät gespeicherten Daten entfernt; in iCloud gesicherte
+Daten bleiben bestehen, bis du sie über die App oder deine iCloud-Einstellungen löschst. Termine
+oder Erinnerungen, die du in die Kalender- bzw. Erinnerungen-App exportiert hast, bleiben dort
+bestehen und müssen ggf. dort separat gelöscht werden. Entziehst du einer Betreuungsperson den
+Zugriff auf ein geteiltes Tier, verliert diese unmittelbar den Zugriff auf die zugehörigen Daten.
+</p>
+
+<h2>7. Deine Rechte (DSGVO)</h2>
+<p>
+Wir selbst erheben oder speichern keine personenbezogenen Daten auf eigenen Servern – deine Daten
+liegen in deinem eigenen iCloud-Account, verarbeitet von Apple als Auftragsverarbeiter. Auskunft,
+Berichtigung und Löschung nimmst du direkt in der App vor; für Fragen zu Apples Verarbeitung deiner
+iCloud-Daten gilt zusätzlich Apples eigene Datenschutzerklärung. Die volle Kontrolle über deine
+Dateninhalte hast du jederzeit direkt in der App.
+</p>
+
+<h2>8. Kontakt</h2>
+<p>Bei Fragen zum Datenschutz erreichst du uns unter: felix.stockkamp@gmail.com</p>
+
+</body>
+</html>
